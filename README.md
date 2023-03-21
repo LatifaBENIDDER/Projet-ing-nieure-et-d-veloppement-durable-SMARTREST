@@ -1,0 +1,2 @@
+# Projet-ing-nieure-et-d-veloppement-durable-SMARTREST
+L'un des buts de ce projet est de prédire le nombre de repas en se basant sur les choix les plus communs faits par INES. Nous envisageons également de créer une application web qui affichera les plats du jour et permettra aux utilisateurs de réserver leurs repas préférés. Cette application renforcera nos prédictions et réduira les marges d'erreur.
