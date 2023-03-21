@@ -1,0 +1,1409 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projet WEB DEV</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link href='https://css.gg/profile.css' rel='stylesheet'>
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    
+<!-- header section starts      -->
+
+<header>
+
+    <a href="#" class="logo">SMARTREST</a>
+
+    <nav class="navbar">
+        <a class="active" href="#home">home</a>
+        <a href="#dishes">dishes</a>
+        <a href="#menu">menu</a>
+        <a href="#review">review</a>
+        <a href="#order">order</a>
+    </nav>
+
+    <div class="icons">
+        <i class="fas fa-bars" id="menu-bars"></i>
+        <i class="fas fa-search" id="search-icon"></i>
+        <a href="index2.html" ><i class="fas fa-sign-in-alt"></i></a>
+        <a href="index3.html" class="fas fa-shopping-cart"></a>
+    </div>
+
+</header>
+
+<!-- header section ends-->
+
+<!-- search form  -->
+
+<form action="" id="search-form">
+    <input type="search" placeholder="search here..." name="" id="search-box">
+    <label for="search-box" class="fas fa-search"></label>
+    <i class="fas fa-times" id="close"></i>
+</form>
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <div class="swiper-container home-slider">
+
+        <div class="swiper-wrapper wrapper">
+
+            <div class="swiper-slide slide">
+                <div class="content">
+                    <span>Les Plats Favoris</span>
+                    <h3>Spaghetti au poulet</h3>
+                    <p style="color: white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit natus dolor cumque?</p>
+                    <a href="#" class="btn" onclick="alertf()">ORDER NOW</a>
+                </div>
+                <div class="image">
+                    <img src="image1/home1.png" alt="">
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <div class="content">
+                    <span>Les Plats Favoris</span>
+                    <h3>Lasagne Classique</h3>
+                    <p style="color: white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit natus dolor cumque?</p>
+                    <a href="#" class="btn" onclick="alertf()">ORDER NOW</a>
+                </div>
+                <div class="image">
+                    <img src="image1/home2.png" alt="">
+                </div>
+            </div>
+
+            <div class="swiper-slide slide">
+                <div class="content">
+                    <span>Les Plats Favoris</span>
+                    <h3>Pizza Americaine</h3>
+                    <p style="color : white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit natus dolor cumque?</p>
+                    <a href="#" class="btn" onclick="alertf()">ORDER NOW</a>
+                </div>
+                <div class="image">
+                    <img src="image1/home3.png" alt="">
+                </div>
+            </div>
+
+        </div>
+
+        <div class="swiper-pagination"></div>
+
+    </div>
+
+</section>
+
+<!-- home section ends -->
+
+<!-- dishes section starts  -->
+
+<section class="dishes" id="dishes">
+
+    <h3 class="sub-heading"> Nos Plats </h3>
+    <h1 class="heading"> Petit déjeuner </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            
+            <img src="image1/thé1.png" alt="">
+            <h3>thé</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            
+            <a href="#" class="btn" onclick="alertf()">add to cart</a>
+        </div>
+
+        <div class="box">
+            
+            <img src="image1/lait2.png" alt="">
+            <h3>lait</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                
+            </div>
+            
+            <a href="#" class="btn" onclick="alertf()">add to cart</a>
+        </div>
+
+        <div class="box">
+            
+            <img src="image1/lait au chocolat1.png" alt="">
+            <h3>Lait au chocolat</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                
+            </div>
+            
+            <a href="#" class="btn" onclick="alertf()">add to cart</a>
+        </div>
+
+        <div class="box">
+            
+            <img src="image1/petit pain au chocolat.png" alt="">
+            <h3>petit pain au chocolat</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+
+                
+            </div>
+            
+            <a href="#" class="btn" onclick="alertf()">add to cart</a>
+        </div>
+
+        <div class="box">
+            
+            <img src="image1/petit pain2.jpg" alt="">
+            <h3>petit pain</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                
+            </div>
+          
+            <a href="#" class="btn" onclick="alertf()">add to cart</a>
+        </div>
+        <div class="box">
+            
+            <img src="image1/msemen.png" alt="">
+            <h3>msemen</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                
+            </div>
+          
+            <a href="#" class="btn" onclick="alertf()">add to cart</a>
+        </div>
+        <div class="box">
+            
+            <img src="image1/cake.png" alt="">
+            <h3>cake</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+               
+            </div>
+            
+            <a href="#" class="btn" onclick="alertf()">add to cart</a>
+        </div>
+
+
+        <div class="box">
+            
+            <img src="image1/fromage.png" alt="">
+            <h3>fromage</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+               
+            </div>
+            
+            <a href="#" class="btn" onclick="alertf()">add to cart</a>
+        </div>
+        <div class="box">
+            
+            <img src="image1/confiture.png" alt="">
+            <h3>confiture</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+               
+            </div>
+            
+            <a href="#" class="btn" onclick="alertf()">add to cart</a>
+        </div>
+
+
+    </div>
+
+
+</section>
+
+<!-- dishes section ends -->
+
+<!-- menu section starts  -->
+
+<section class="menu" id="menu">
+
+    <h3 class="sub-heading"> déjeuner </h3>
+    <h1 class="heading"> Entrées </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <div class="image">
+                <img src="image1/salade fruit.png" alt="">
+                
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    
+                </div>
+                <h3>salade de fruit</h3>
+                <a href="#" class="btn" onclick="alertf()">add to cart</a>
+                
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="image1/salade mexicaine.png" alt="">
+                
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>salade mexicaine</h3>
+                <a href="#" class="btn" onclick="alertf()">add to cart</a>
+               
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="image1/jus de carotte1.jpg" alt="">
+                
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>jus de carotte</h3>
+                <a href="#" class="btn" onclick="alertf()">add to cart</a>
+               
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="image1/jus de concombre.jpg" alt="">
+                
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>jus de concombre</h3>
+                <a href="#" class="btn" onclick="alertf()">add to cart</a>
+               
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="image1/salade mimosa.png" alt="">
+                
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>salade mimosa</h3>
+                <a href="#" class="btn" onclick="alertf()">add to cart</a>
+              
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="image1/macédoine des légumes.jpg" alt="">
+                
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>macédoine des légumes</h3>
+                <a href="#" class="btn" onclick="alertf()">add to cart</a>
+         
+            </div>
+        </div>
+        <div class="box">
+            <div class="image">
+                <img src="image1/salde italienne.png" alt="">
+                
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>salde italienne</h3>
+                <a href="#" class="btn" onclick="alertf()">add to cart</a>
+         
+            </div>
+        </div>
+        <div class="box">
+            <div class="image">
+                <img src="image1/salade variée.png" alt="">
+                
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>salade variée</h3>
+                <a href="#" class="btn" onclick="alertf()">add to cart</a>
+         
+            </div>
+        </div>
+
+
+        
+       
+        
+
+    </div>
+    <h1 class="heading"> Plats principaux </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <div class="image">
+                <img src="image1/sauté de boeuf.png" alt="">
+                
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    
+                </div>
+                <h3>sauté de boeuf</h3>
+                <a href="#" class="btn" onclick="alertf()">add to cart</a>
+                
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="image1/steak de poulet.png" alt="">
+                
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>steak de poulet</h3>
+                <a href="#" class="btn" onclick="alertf()">add to cart</a>
+               
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="image1/filet de poisson au four.png" alt="">
+                
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>filet de poisson au four</h3>
+                <a href="#" class="btn" onclick="alertf()">add to cart</a>
+               
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="image1/poulet mhamer.jpg" alt="">
+                
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>poulet mhamer</h3>
+                <a href="#" class="btn" onclick="alertf()">add to cart</a>
+               
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="image1/esclope pané.png" alt="">
+                
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>esclope pané</h3>
+                <a href="#" class="btn" onclick="alertf()">add to cart</a>
+              
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="image1/merlan frit.jpg" alt="">
+                
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>merlan frit</h3>
+                <a href="#" class="btn" onclick="alertf()">add to cart</a>
+         
+            </div>
+        </div>
+        <div class="box">
+            <div class="image">
+                <img src="image1/ossobuco au raisains.jpg" alt="">
+                
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>ossobuco au raisains</h3>
+                <a href="#" class="btn" onclick="alertf()">add to cart</a>
+         
+            </div>
+        </div>
+        <div class="box">
+            <div class="image">
+                <img src="image1/brochettes de poulet.jpg" alt="">
+                
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>brochettes de poulet</h3>
+                <a href="#" class="btn" onclick="alertf()">add to cart</a>
+         
+            </div>
+        </div>
+        
+        <div class="box">
+            <div class="image">
+                <img src="image1/riz pilaf.jpg" alt="">
+                
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>riz pilaf</h3>
+                <a href="#" class="btn" onclick="alertf()">add to cart</a>
+         
+            </div>
+        </div>
+        <div class="box">
+            <div class="image">
+                <img src="image1/couscous.jpg" alt="">
+                
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>couscous</h3>
+                <a href="#" class="btn" onclick="alertf()">add to cart</a>
+         
+            </div>
+        </div>
+        <div class="box">
+            <div class="image">
+                <img src="image1/tajine.png" alt="">
+                
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>tagine</h3>
+                <a href="#" class="btn" onclick="alertf()">add to cart</a>
+         
+            </div>
+        </div>
+        <div class="box">
+            <div class="image">
+                <img src="image1/sauté de boeuf.png" alt="">
+                
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>sauté de boeuf</h3>
+                <a href="#" class="btn" onclick="alertf()">add to cart</a>
+         
+            </div>
+        </div>
+        <div class="box">
+            <div class="image">
+                <img src="image1/goujonnette de poisson.png" alt="">
+                
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>goujonnette de poisson</h3>
+                <a href="#" class="btn" onclick="alertf()">add to cart</a>
+         
+            </div>
+        </div>
+        <div class="box">
+            <div class="image">
+                <img src="image1/cordan bleu.png" alt="">
+                
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <h3>cordan bleu</h3>
+                <a href="#" class="btn" onclick="alertf()">add to cart</a>
+         
+            </div>
+        </div>
+        <div class="box">
+            <div class="image">
+                <img src="image1/pastilla au poulet.jpg" alt="">
+                
+            </div>
+            <div class="content">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                
+                <h3>pastilla au poulet</h3>
+                <a href="#" class="btn" onclick="alertf()">add to cart</a>
+         
+            </div>
+        </div>
+    </div>
+
+</section>
+<section class="dishes" id="dishes">
+
+    
+    <h1 class="heading"> garnitures </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            
+            <img src="image1/jardiniére de légumes.jpg" alt="">
+            <h3>jardinière de légumes</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            
+            <a href="#" class="btn" onclick="alertf()">add to cart</a>
+        </div>
+
+        <div class="box">
+            
+            <img src="image1/haricot blanc en sauce.jpg" alt="">
+            <h3>haricot blanc en sauce</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                
+            </div>
+            
+            <a href="#" class="btn" onclick="alertf()">add to cart</a>
+        </div>
+
+        <div class="box">
+            
+            <img src="image1/zaalouk.jpg" alt="">
+            <h3>zaalouk</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                
+            </div>
+            
+            <a href="#" class="btn" onclick="alertf()">add to cart</a>
+        </div>
+
+        <div class="box">
+            
+            <img src="image1/pommes aux olives.jpg" alt="">
+            <h3>pommes aux olives</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+
+                
+            </div>
+            
+            <a href="#" class="btn" onclick="alertf()">add to cart</a>
+        </div>
+
+        
+
+    </div>
+
+</section>
+<section class="dishes" id="dishes">
+
+    
+    <h1 class="heading"> Dessert </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            
+            <img src="image1/dannete.jpg" alt="">
+            <h3>yaourt</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            
+            <a href="#" class="btn" onclick="alertf()">add to cart</a>
+        </div>
+
+        <div class="box">
+            
+            <img src="image1/millefeuille.jpg" alt="">
+            <h3>mille-feuille</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                
+            </div>
+            
+            <a href="#" class="btn" onclick="alertf()">add to cart</a>
+        </div>
+
+        <div class="box">
+            
+            <img src="image1/cake a la créme.jpg" alt="">
+            <h3>Cake à la crème</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                
+            </div>
+            
+            <a href="#" class="btn" onclick="alertf()">add to cart</a>
+        </div>
+
+        
+
+    </div>
+
+</section>
+
+<section class="dishes" id="dishes">
+
+    <h3 class="sub-heading">dîner </h3>
+    <h1 class="heading">Entrées </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            
+            <img src="image1/harira.jpg" alt="">
+            <h3>harira</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            
+            <a href="#" class="btn" onclick="alertf()">add to cart</a>
+        </div>
+
+        <div class="box">
+            
+            <img src="image1/soupe de légumes.jpg" alt="">
+            <h3>soupe de légumes</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                
+            </div>
+            
+            <a href="#" class="btn" onclick="alertf()">add to cart</a>
+        </div>
+
+        <div class="box">
+            
+            <img src="image1/soupe de poisson.jpg" alt="">
+            <h3>soupe de poisson</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                
+            </div>
+            
+            <a href="#" class="btn" onclick="alertf()">add to cart</a>
+        </div>
+
+        <div class="box">
+            
+            <img src="image1/potage de légumes.jpg" alt="">
+            <h3>potage de légumes</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+
+                
+            </div>
+            
+            <a href="#" class="btn" onclick="alertf()">add to cart</a>
+        </div>
+
+        <div class="box">
+            
+            <img src="image1/créme de volaille.jpg" alt="">
+            <h3>créme de volaille</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                
+            </div>
+          
+            <a href="#" class="btn" onclick="alertf()">add to cart</a>
+        </div>
+        
+
+    </div>
+
+
+</section>
+
+<section class="dishes" id="dishes">
+
+
+    <h1 class="heading">plats principaux </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            
+            <img src="image1/panini dinde.jpg" alt="">
+            <h3>panini dinde</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            
+            <a href="#" class="btn" onclick="alertf()">add to cart</a>
+        </div>
+
+        <div class="box">
+            
+            <img src="image1/panini viande hachée.jpg" alt="">
+            <h3>panini viande hachée</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                
+            </div>
+            
+            <a href="#" class="btn" onclick="alertf()">add to cart</a>
+        </div>
+
+        <div class="box">
+            
+            <img src="image1/cheese burger.jpg" alt="">
+            <h3>cheese burger</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                
+            </div>
+            
+            <a href="#" class="btn" onclick="alertf()">add to cart</a>
+        </div>
+
+        <div class="box">
+            
+            <img src="image1/tacos volaille.jpg" alt="">
+            <h3>tacos volaille</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+
+                
+            </div>
+            
+            <a href="#" class="btn" onclick="alertf()">add to cart</a>
+        </div>
+
+        <div class="box">
+            
+            <img src="image1/brochettes de kefta.jpg" alt="">
+            <h3>brochettes de kefta</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                
+            </div>
+          
+            <a href="#" class="btn" onclick="alertf()">add to cart</a>
+        </div>
+        <div class="box">
+            
+            <img src="image1/spaghetti aux herbes.jpg" alt="">
+            <h3>spaghetti aux herbes</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                
+            </div>
+          
+            <a href="#" class="btn" onclick="alertf()">add to cart</a>
+        </div><div class="box">
+            
+            <img src="image1/saucisse au four.jpg" alt="">
+            <h3>saucisse au four</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                
+            </div>
+          
+            <a href="#" class="btn" onclick="alertf()">add to cart</a>
+        </div><div class="box">
+            
+            <img src="image1/escallope de poulet.jpg" alt="">
+            <h3>escallope de poulet</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                
+            </div>
+          
+            <a href="#" class="btn" onclick="alertf()">add to cart</a>
+        </div>
+        <div class="box">
+            
+            <img src="image1/sandwich viande hachée.jpg" alt="">
+            <h3>sandwich viande hachée</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                
+            </div>
+          
+            <a href="#" class="btn" onclick="alertf()">add to cart</a>
+        </div>
+        <div class="box">
+            
+            <img src="image1/batonnets de kefta.jpg" alt="">
+            <h3>batonnets de kefta</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                
+            </div>
+          
+            <a href="#" class="btn" onclick="alertf()">add to cart</a>
+        </div>
+        <div class="box">
+            
+            <img src="image1/nugget de poulet.jpg" alt="">
+            <h3>nugget de poulet</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                
+            </div>
+          
+            <a href="#" class="btn" onclick="alertf()">add to cart</a>
+        </div>
+        <div class="box">
+            
+            <img src="image1/pizza au poulet.jpg" alt="">
+            <h3>pizza au poulet</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                
+            </div>
+          
+            <a href="#" class="btn" onclick="alertf()">add to cart</a>
+        </div>
+        <div class="box">
+            
+            <img src="image1/pizza au thon.jpg" alt="">
+            <h3>pizza au thon</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                
+            </div>
+          
+            <a href="#" class="btn" onclick="alertf()">add to cart</a>
+        </div>
+        
+        <div class="box">
+            
+            <img src="image1/penne aux herbes fines.jpg" alt="">
+            <h3>penne aux herbes fines</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                
+            </div>
+          
+            <a href="#" class="btn" onclick="alertf()">add to cart</a>
+        </div>
+        <div class="box">
+            
+            <img src="image1/steak de dinde.jpg" alt="">
+            <h3>steak de dinde</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                
+            </div>
+          
+            <a href="#" class="btn" onclick="alertf()">add to cart</a>
+        </div>
+        
+
+    </div>
+
+
+</section>
+</section>
+<section class="dishes" id="dishes">
+
+    
+    <h1 class="heading"> Dessert </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            
+            <img src="image1/dannete.jpg" alt="">
+            <h3>yaourt</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+            
+            <a href="#" class="btn" onclick="alertf()">add to cart</a>
+        </div>
+
+        <div class="box">
+            
+            <img src="image1/millefeuille.jpg" alt="">
+            <h3>mille-feuille</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                
+            </div>
+            
+            <a href="#" class="btn" onclick="alertf()">add to cart</a>
+        </div>
+
+        <div class="box">
+            
+            <img src="image1/cake a la créme.jpg" alt="">
+            <h3>Cake à la crème</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                
+            </div>
+            
+            <a href="#" class="btn" onclick="alertf()">add to cart</a>
+        </div>
+
+        
+
+    </div>
+
+</section>
+
+<!-- menu section ends -->
+
+<!-- review section starts  -->
+
+<section class="review" id="review">
+
+    <h3 class="sub-heading"> Avis des Clients </h3>
+    <h1 class="heading"> Ce qu'ils disent </h1>
+
+    <div class="swiper-container review-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide slide">
+                
+                <div class="user">
+                    <img src="image1/anash.jpg" alt="">
+                    <div class="user-info">
+                        <h3>Anas Hennouz </h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+                <p>Service top.</p>
+            </div>
+
+            <div class="swiper-slide slide">
+                
+                <div class="user">
+                    <img src="image1/anast1.jpg" alt="">
+                    <div class="user-info">
+                        <h3>Malika ousseini </h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+            <p>vous voulez un bon service? commandez via Smartrest </p>
+            </div>
+            <div class="swiper-slide slide">
+                
+                <div class="user">
+                    <img src="image1/hajarbenjarnnij.jpg" alt="">
+                    <div class="user-info">
+                        <h3>Hajar benjarnij</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+                <p>Bonne qualite!</p>
+            </div>
+            <div class="swiper-slide slide">
+                
+                <div class="user">
+                    <img src="image1/anast.jpg" alt="">
+                    <div class="user-info">
+                        <h3>Anas tami </h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+                <p>Service top</p>
+            </div>
+
+            <div class="swiper-slide slide">
+                
+                <div class="user">
+                    <img src="image1/med.jpg" alt="">
+                    <div class="user-info">
+                        <h3>Med Badague</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <p> Service Top.</p>
+            </div>
+
+        </div>
+
+    </div>
+    
+</section>
+
+<!-- review section ends -->
+
+
+<!-- footer section starts  -->
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="#">home</a>
+            <a href="#">dishes</a>
+            <a href="#">menu</a>
+            <a href="#">reivew</a>
+            <a href="#">order</a>
+        </div>
+
+        <div class="box">
+            <h3>contact info</h3>
+            <a href="#">0606060606</a>
+            <a href="#">smartrest2022@gmail.com</a>
+            <a> INPT-Rabat</a>
+        </div>
+
+        <div class="box">
+            <h3>follow us</h3>
+            <a href="https://www.facebook.com/">facebook</a>
+            <a href="https://www.instagram.com/">instagram</a>
+            <a href="https://www.facebook.com/">smartrest2022@gmail.com</a>
+            
+        </div>
+
+    </div>
+
+
+</section>
+
+<!-- footer section ends -->
+
+<!-- loader part  -->
+<div class="loader-container">
+    <img src="images/loader.gif" alt="">
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+
+</body>
+</html>

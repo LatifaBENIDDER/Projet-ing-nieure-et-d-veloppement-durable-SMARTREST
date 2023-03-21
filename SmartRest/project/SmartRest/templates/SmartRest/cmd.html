@@ -1,0 +1,125 @@
+
+
+
+
+
+
+
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projet WEB DEV</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="{% static '/css/style.css' %}">
+
+</head>
+<body>
+<header>
+
+        <a href="{% url 'SR-Home' %}" class="logo">SMARTREST</a>
+    
+        <nav class="navbar">
+            <a class="active" href="{% url 'SR-Home' %}">home</a>
+            <a href="{% url 'SR-Home' %}#dishes">dishes</a>
+            <a href="{% url 'SR-Home' %}#menu">menu</a>
+            <a href="{% url 'SR-Home' %}#review">review</a>
+            <a href="{% url 'SR-commande' %}">order</a>
+        </nav>
+    
+    
+</header>
+<!-- order section starts  -->
+
+<section class="order" id="order">
+
+    <h3 class="sub-heading"> order now </h3>
+    <h1 class="heading"> Free and Fast </h1>
+
+    <form action="">
+
+        <div class="inputBox">
+            <div class="input">
+                <span>Nom</span>
+                <input type="text" placeholder="Entrez votre Nom">
+            </div>
+            <div class="input">
+                <span>Numero de Telephone</span>
+                <input type="number" placeholder="Entrez votre numero de telephone">
+            </div>
+        </div>
+        <div class="inputBox">
+            <div class="input">
+                <span>Votre Commande</span>
+                <input type="text" placeholder="Entrez les plats a commander">
+            </div>
+            <div class="input">
+                <span>Commande Supp</span>
+                <input type="test" placeholder="Plats additionels">
+            </div>
+        </div>
+        <div class="inputBox">
+            <div class="input">
+                <span>Nombre de Commandes</span>
+                <input type="number" placeholder="Entrez le nombre de commandes">
+            </div>
+            <div class="input">
+                <span>Date et Heure</span>
+                <input type="datetime-local">
+            </div>
+        </div>
+        <div class="inputBox">
+            <div class="input">
+                <span>message</span>
+                <textarea name="" placeholder="Entrez votre message" id="" cols="30" rows="10"></textarea>
+            </div>
+            
+        </div>
+
+        <input href="index2.html" type="submit" value="order now" class="btn" >
+
+    </form>
+
+</section>
+
+<!-- order section ends -->
+
+
+<!-- loader part  -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="{% static 'js/script.js' %}"></script>
+
+</body>
+</html>
